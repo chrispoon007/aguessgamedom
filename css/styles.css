@@ -1,0 +1,60 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: rgba(139, 0, 23, 0.284);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 50px;
+    line-height: 75%
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+div#result{
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 139, 19, 0.284);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 50px;
+}
+
+button#reset{
+    margin-top: 10px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+button#start{
+    margin-top: 25px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 50px;
+}
+
+form{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
